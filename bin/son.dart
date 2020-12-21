@@ -10,4 +10,11 @@ class Son extends Father {
   String myName() {
     print("My name is Hasan");
   }
+
+  void sonFun() {
+    var n = super.name;
+    super.addTwo();
+    super.myName();
+    print(n);
+  }
 }
